@@ -1,39 +1,69 @@
-/*Home page*/
-li {
+
+body {
+    margin: 0px;
+    font-family:'Inter';
+    font-size: 24px;
+  }
+  
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid rgb(80, 75, 19);
+  }
+  
+  .topnav a {
     float: left;
-    list-style-type: none;
-}
-
-li a {
-    display:flex;
-    padding: 50px 80px;
-    background-color: white;
-    text-decoration:none; 
-    font-family: 'Inter';
-    font-weight: 500;
-    color:rgba(129,93,2,1);
-    width: 100%;
-    align-items: center;
-}
-
-li a:hover {
-    background-color: rgba(228,169,81,1);
     color: rgba(129,93,2,1);
-}
-
-#menu1 {
-    overflow:hidden;
-    background-color: white;
-    display: table;
-    width: 100%;
-    border: 2px solid rgba(129,93,2,1);
-    justify-content:center ;
-}
+    text-align: center;
+    padding: 50px 70px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(255,154,2,1);
+    color: rgb(80, 75, 19);
+  }
+  
+  .topnav a.active {
+    background-color: rgba(255,154,2,1);
+    color: white;
+  }
+  
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .topnav-right {
+    float: right;
+    padding-right: 0px;
+  }
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
 
 .container {
     display: flex;
     align-items:center;
     text-align: center;
+    width: 100%;
 }
 
 .text h1{
@@ -58,7 +88,7 @@ li a:hover {
     font-size: 20px;
     font-family: 'Inika';
     font-weight:400;
-    color: rgba(255,154,2,1);
+    color: rgba(255, 154, 2, 1);
     padding-top: 30px;
     padding-left: 50px;
     text-align: center;
@@ -79,30 +109,40 @@ li a:hover {
     background-color: white;
 }
 
+.text h4 a:hover {
+    background-color: rgba(255,154,2,1);
+    color: rgb(80, 75, 19);
+  }
+
 .section1 img{
     display: block;
     position: relative;
+    width: 40%;
 }
 
 .image1 {
-    border: 2px solid rgb(144,144,44);
+    border: 2px solid rgba(129,93,2,1);
     margin-top: 105px;
-    margin-left: 135px;
+    margin-left: 200px;
     size: 445px 238px;
+    width: 50%;
 }
 .image2 {
     margin-top: 30px;
-    margin-left: 286px;
-    left: 100;
-    border: 2px solid rgb(144,144,44);
+    margin-left: 400px;
+    border: 2px solid rgba(129,93,2,1);
     size: 445px 238px;
+    
+    width: 50%;
 }
 .image3 {
     margin-top: 30px;
-    margin-left: 372px;
-    border: 2px solid rgb(144,144,44);
+    margin-left: 600px;
+    border: 2px solid rgba(129,93,2,1);
     size: 445px 238px;
     margin-bottom: 100px;
+    
+    width: 50%;
 }
 
 .footer {
@@ -144,32 +184,33 @@ li a:hover {
     border: 2px solid rgba(129,93,2,1);
     display: block;
     margin: 50px;
+    line-height: 50%;
 }
 
 .box img {
-    height: 160px;
-    width: fit-content;
-   
+    height: 250px;
+    width: auto;
 }
 
 h1, h2 {
-    font-family: 'Imprima';
+    font-family: 'Inter';
     font-size: 24px;
     color: rgba(129,93,2,1);
     text-align: center;
+    padding-top: 20px;
 }
 
 h3, h4 {
     font-family: "Inter";
     font-size: 16px;
-    color: rgba(160, 117, 4, 0.91);
+    color: rgba(129,93,2,1);
     text-align: center;
 }
 
 h5 {
     font-family: "Inter";
-    font-size: 10px;
-    color: rgba(160, 117, 4, 0.91);
+    font-size: 12px;
+    color: rgba(255, 154, 2, 1);
     text-align: center;
 }
 
@@ -178,4 +219,165 @@ h6 {
     font-size: 16px;
     text-align: center;
     color:rgba(255, 154, 2, 1);
+    padding-bottom: 20px;
 }
+/*Nordic Summer*/
+.description {
+    display:block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    line-height: 150%;
+}
+
+
+
+.boughtprods {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.boughtprods .box {
+    background-color: white;
+    
+    margin-top: 10px;
+}
+
+.boughtprods img {
+    height: 155px;
+    width: auto;
+}
+
+.mightalsolike {
+    display: flex;
+    text-align: left;
+    justify-content:center;
+    padding-right: 200px;
+}
+
+.mightalsolikeprods {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    padding-left: 100px;
+    
+}
+.mightalsolikeprods .box {
+    background-color: white;
+    border: 2px solid rgba(129,93,2,1);
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 50%;
+}
+
+
+.mightalsolikeprods img {
+    height: 150px;
+    width: auto;
+}
+
+
+.prodcontainer .box{
+    
+    background-color: white;
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.prodcontainer {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.prodcontainer .Nordicsummer {
+    height: 450px;
+    width: 420px;
+}
+
+section {
+    float:left;
+    margin: 0 1.5%;
+    width: 30%;
+}
+
+.nordicsummerphotos {
+    display:flex;
+    padding-left: 80px;
+}
+
+.nordicsummerphotos img {
+    margin: 10px;
+    height:140px;
+    width: 120px;  
+}
+
+.previousnext {
+    float: left;
+    margin-left: 400px;
+    text-align: center;
+    justify-content:center;
+
+}
+.review {
+    text-align: center;
+    justify-content:center;
+
+}
+.row {
+   display: flex;
+   justify-content: center;
+
+}
+.myself .property{
+    width:50%;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:right;
+    padding-right: 100px;
+    line-height: 40%;
+    }
+  
+.myself .value{
+    text-align:left;
+    width:50%;
+    display:inline-block;
+    box-sizing:border-box;
+    line-height: 40%;
+    }
+
+table {
+    font-family: arial, sans-serif;
+    width: 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    background-color: white;
+    color:rgb(80, 75, 19);
+
+}
+
+      
+td {
+    text-align: left;
+    padding: 50px;
+}
+
+.cart a {
+    color:rgba(160, 117, 4, 0.91);
+    text-decoration: none;
+}
+.cart a:hover {
+    background-color: rgba(255,154,2,1);
+    color: rgb(80, 75, 19);
+    text-decoration: none;
+  }
+  
