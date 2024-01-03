@@ -17,7 +17,7 @@ The primary goals of this project were:
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/arctic-honey-finland-replica.git`
+1. Clone the repository: `git clone https://github.com/t2hale00/Brownie-s-Honey-Ecommerce.git`
 2. Open the `index.html` file in your preferred web browser.
 
 Feel free to explore the code and offer any comments or suggestions. I'm keen on improving both my coding skills and UI design proficiency!
@@ -26,7 +26,6 @@ Feel free to explore the code and offer any comments or suggestions. I'm keen on
 
 - Arctic Honey Finland for inspiring this project.
 - Figma for providing a platform to experiment with UI design.
-- [Lea]
 
 ---
 
