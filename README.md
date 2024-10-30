@@ -2,6 +2,10 @@
 
 Welcome to my first HTML/CSS project! This project is the culmination of my HTML and CSS programming class, aiming to apply and reinforce the fundamentals of web development. Inspired by the Arctic Honey Finland webpage, I have created a replica with real-time products and descriptions to practice both coding and UI design principles.
 
+<div style="display: flex; justify-content: center;">
+    <img src="Main.png" alt="HealthZen Login Page" width="260" height="500" />
+</div>
+
 ## Project Overview
 
 The primary goals of this project were:
