@@ -26,8 +26,8 @@ The primary goals of this project were:
   
   ## Product Description
   <div style="display: flex; justify-content: center;">
-    <img src="ProductDescription1.png" alt="Product Description 1" width="1000" height="550" />
-    <img src="ProductDescription2.png" alt="Product Description 2" width="1000" height="550" />
+    <img src="ProductDescription1.png" alt="Product Description 1" width="500" height="275" />
+    <img src="ProductDescription2.png" alt="Product Description 2" width="500" height="275" />    
   </div>
   
   ## Cart
