@@ -39,6 +39,11 @@ The primary goals of this project were:
   <div style="display: flex; justify-content: center;">
     <img src="AboutUs.png" alt="About Us Page" width="1000" height="650" />
   </div>
+  
+  ## Contact Us Page
+  <div style="display: flex; justify-content: center;">
+    <img src="ContactUs.png" alt="Contact Us Page" width="1000" height="650" />
+  </div>
 
 ## How to Use
 
