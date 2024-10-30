@@ -3,7 +3,7 @@
 Welcome to my first HTML/CSS project! This project is the culmination of my HTML and CSS programming class, aiming to apply and reinforce the fundamentals of web development. Inspired by the Arctic Honey Finland webpage, I have created a replica with real-time products and descriptions to practice both coding and UI design principles.
 
 <div style="display: flex; justify-content: center;">
-    <img src="Main.png" alt="Brownie´s Honey Main Page" width="1000" height="650" />
+    <img src="Main.png" alt="Brownie´s Honey Main Page" width="1000" height="550" />
 </div>
 
 ## Project Overview
@@ -26,8 +26,8 @@ The primary goals of this project were:
   
   ## Product Description
   <div style="display: flex; justify-content: center;">
-    <img src="ProductDescription1.png" alt="Product Description 1" width="500" height="275" />
-    <img src="ProductDescription2.png" alt="Product Description 2" width="500" height="275" />    
+    <img src="ProductDescription.png" alt="Product Description 1" width="900" height="575" />
+    <img src="ProductDescription1.png" alt="Product Description 2" width="900" height="575" />    
   </div>
   
   ## Cart
