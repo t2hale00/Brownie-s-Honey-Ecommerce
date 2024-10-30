@@ -27,22 +27,22 @@ The primary goals of this project were:
   ## Product Description
   <div style="display: flex; justify-content: center;">
     <img src="ProductDescription.png" alt="Product Description 1" width="900" height="575" />
-    <img src="ProductDescription1.png" alt="Product Description 2" width="900" height="575" />    
+    <img src="ProductDescription1.png" alt="Product Description 2" width="600" height="475" />    
   </div>
   
   ## Cart
   <div style="display: flex; justify-content: center;">
-    <img src="Cart.png" alt="Cart" width="1000" height="650" />
+    <img src="Cart.png" alt="Cart" width="900" height="450" />
   </div>
   
   ## About Us Page
   <div style="display: flex; justify-content: center;">
-    <img src="AboutUs.png" alt="About Us Page" width="1000" height="650" />
+    <img src="AboutUs.png" alt="About Us Page" width="900" height="450" />
   </div>
   
   ## Contact Us Page
   <div style="display: flex; justify-content: center;">
-    <img src="ContactUs.png" alt="Contact Us Page" width="1000" height="650" />
+    <img src="ContactUs.png" alt="Contact Us Page" width="900" height="450" />
   </div>
 
 ## How to Use
