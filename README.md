@@ -3,7 +3,7 @@
 Welcome to my first HTML/CSS project! This project is the culmination of my HTML and CSS programming class, aiming to apply and reinforce the fundamentals of web development. Inspired by the Arctic Honey Finland webpage, I have created a replica with real-time products and descriptions to practice both coding and UI design principles.
 
 <div style="display: flex; justify-content: center;">
-    <img src="Main.png" alt="Brownie´s Honey Main Page" width="1000" height="500" />
+    <img src="Main.png" alt="Brownie´s Honey Main Page" width="1000" height="650" />
 </div>
 
 ## Project Overview
@@ -18,6 +18,29 @@ The primary goals of this project were:
 - **Responsive Design:** The webpage is designed to be responsive, ensuring a seamless experience across various devices.
 - **Product Showcase:** Real-time products and descriptions are integrated, providing a glimpse into the offerings of Arctic Honey Finland.
 - **UI Design Elements:** Inspired by Figma exploration, I've incorporated UI design elements to enhance the aesthetics of the webpage.
+
+  ## Products List
+      <div style="display: flex; justify-content: center;">
+        <img src="Products.png" alt="Brownie´s Honey Products List" width="1000" height="650" />
+      </div>
+  
+  ## Product Description
+  <div style="display: flex; justify-content: center;">
+    <img src="ProductDescription1.png" alt="Product Description 1" width="1000" height="650" />
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <img src="ProductDescription2.png" alt="Product Description 2" width="1000" height="650" />
+  </div>
+  
+  ## Cart
+  <div style="display: flex; justify-content: center;">
+    <img src="Cart.png" alt="Cart" width="1000" height="650" />
+  </div>
+  
+  ## About Us Page
+  <div style="display: flex; justify-content: center;">
+    <img src="AboutUs.png" alt="About Us Page" width="1000" height="650" />
+  </div>
 
 ## How to Use
 
