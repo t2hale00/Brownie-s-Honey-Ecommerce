@@ -20,9 +20,9 @@ The primary goals of this project were:
 - **UI Design Elements:** Inspired by Figma exploration, I've incorporated UI design elements to enhance the aesthetics of the webpage.
 
   ## Products List
-      <div style="display: flex; justify-content: center;">
-        <img src="Products.png" alt="Brownie´s Honey Products List" width="1000" height="650" />
-      </div>
+  <div style="display: flex; justify-content: center;">
+    <img src="Products.png" alt="Brownie´s Honey Products List" width="1000" height="650" />
+  </div>
   
   ## Product Description
   <div style="display: flex; justify-content: center;">
